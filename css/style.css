@@ -23,7 +23,7 @@
     position: relative;
 }
 .demo-main {
-  margin-top: -35vh;
+  margin-top: -27vh;
   flex-shrink: 0;
 }
 
@@ -60,13 +60,15 @@
 }
 
 .demo-card-square.mdl-card {
-  width: 320px;
+  width: 280px;
   height: 320px;
 }
 .demo-card-square > .mdl-card__title {
-  color: #fff;
-  background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+    color: #fff;
+    background: url('../images/NavPelCoracao.png') bottom right 15% no-repeat #46B6AD;
+    position: relative;
+    background-position-y: -34px;
+    background-size: 282px;
 }
 .tedLat{
     float: left;
@@ -78,6 +80,12 @@
 }
 .mdl-white_colr{
 	color: rgb(255, 255, 255) !important;
+}
+
+.trioPerson{
+    position: relative;
+    top: 40px;
+    left: -38px;
 }
 
 /***************************************/
