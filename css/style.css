@@ -87,6 +87,96 @@
     top: 40px;
     left: -38px;
 }
+.lucca{
+	background-image: url('../images/lucca_transp.png');
+	height: 163px;
+    width: 190px;
+    border: solid 1px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 18px;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.lucca:hover{
+	background-image: url('../images/lucca.png');
+	height: 163px;
+    width: 190px;
+    border: solid 1px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 18px;
+    cursor: pointer;
+webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+/*********** End Lucca Transition ******/
+
+.mikaela{
+	background-image: url('../images/mikaela_transp.png');
+	height: 278px;
+    width: 190px;
+    border: solid 1px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 18px;
+transform: translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+backface-visibility: hidden;
+-moz-osx-font-smoothing: grayscale;
+transition-duration: 0.3s;
+transition-property: transform;
+transition-timing-function: ease-out;
+}
+.mikaela:hover{
+	background-image: url('../images/mikaela.png');
+	height: 278px;
+    width: 190px;
+    border: solid 1px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 18px;
+webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+/*********** End Mikaela Transition ******/
+
+.mirela{
+	background-image: url('../images/mirela_transp.png');
+	height: 173px;
+    width: 233px;
+    border: solid 1px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 18px;
+transform: translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+backface-visibility: hidden;
+-moz-osx-font-smoothing: grayscale;
+transition-duration: 0.3s;
+transition-property: transform;
+transition-timing-function: ease-out;
+}
+.mirela:hover{
+	background-image: url('../images/mirela.png');
+	height: 173px;
+    width: 233px;
+    border: solid 1px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 18px;
+webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+
 
 /***************************************/
 
