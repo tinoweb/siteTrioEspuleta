@@ -13,30 +13,30 @@ function scroll_to(clicked_link, nav_height) {
 
 
 jQuery(document).ready(function() {
-	
+
 	/*
 	    Navigation
 	*/
 	$('a.scroll-link').on('click', function(e) {
 		e.preventDefault();
 		scroll_to($(this), 0);
-	});	
-	
+	});
+
     /*
         Background slideshow
-    
+
     $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
     $('.how-it-works-container').backstretch("assets/img/backgrounds/1.jpg");
     $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
     $('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
-    
+
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
     });
     $('#top-navbar-1').on('hidden.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
     });
-    
+
     $('a[data-toggle="tab"]').on('shown.bs.tab', function() {
     	$('.testimonials-container').backstretch("resize");
     });
@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
         Wow
     */
     new WOW().init();
-    
+
 	/*
 	    Modals
 	*/
@@ -53,22 +53,21 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		$( '#' + $(this).data('modal-id') ).modal();
 	});
-    
+
 });
 
 
 jQuery(window).load(function() {
-	
+
 	/*
 		Loader
 	*/
 	$(".loader-img").fadeOut();
 	$(".loader").delay(1000).fadeOut("slow");
-	
+
 	/*
 		Hidden images
 	*/
 	$(".modal-body img, .testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
-	
-});
 
+});
