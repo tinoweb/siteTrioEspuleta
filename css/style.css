@@ -590,6 +590,23 @@ ul.navbar-nav {
 	padding-bottom: 70px;
 }
 
+
+.divirta-se-container {
+	padding-bottom: 70px;
+}
+
+.blog-container {
+	padding-bottom: 70px;
+}
+
+
+.contato-container {
+	padding-bottom: 70px;
+}
+
+
+
+
 .testimonial-list {
     margin-top: 30px;
     text-align: left;
@@ -660,6 +677,10 @@ ul.navbar-nav {
 .testimonial-list .nav-tabs li a:hover { border: 0; background: #be5254; }
 .testimonial-list .nav-tabs li.active a { background: #be5254; }
 .testimonial-list .nav-tabs li.active a:focus { border: 0; }
+
+
+
+
 
 
 /***** Footer *****/
