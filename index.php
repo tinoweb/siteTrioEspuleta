@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta content="IE=edge" http-equiv="X-UA-Compatible">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <title>Trio Espuleta</title>
-                    
-        <link href="img/fav.png" rel="icon">
-                        <!-- CSS -->
-        <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/typicons.min.css" rel="stylesheet">
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="css/form-elements.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/media-queries.css" rel="stylesheet">
-                            <!-- Favicon and touch icons -->
-        <link href="assets/ico/favicon.png" rel="shortcut icon">
-        <link href="apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-        <link href="apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-        <link href="apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-        <link href="apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
-   
-    </head>
+<?php include_once 'parts/header.php'; ?>
+
+
     <body style="overflow-x: hidden;">
         <!-- Top content -->
         <div class="top-content section-container-5">
@@ -45,7 +23,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse cor-menu" id="top-navbar-1">
                         <div class="row">
-                            
+
 
                             <div class="col-md-5">
                                 <ul class="nav navbar-nav navbar-left">
@@ -56,7 +34,7 @@
                                     </li>
                                     <li>
                                         <a class="scroll-link" href="#how-it-works">
-                                            A Idealizadora
+                                          A Idealizadora
                                         </a>
                                     </li>
                                     <li>
@@ -69,7 +47,7 @@
 
 
                             <div class="col-md-2">
-                                <img alt="" src="img/logo.png" style="border:none;">
+                                <img alt="" src="img/logo.png" class="logotipo" style="border:none;">
                             </div>
 
 
@@ -77,7 +55,7 @@
                                 <ul class="nav navbar-nav navbar-right">
                                     <li>
                                         <a class="scroll-link" href="#testimonials">
-                                            Loja
+                                          <i class="fa fa-shopping-bag"></i>  Loja
                                         </a>
                                     </li>
                                     <li>
@@ -87,7 +65,7 @@
                                     </li>
                                     <li>
                                         <a class="scroll-link" href="#blog">
-                                            Blog
+                                          </i>  Blog
                                         </a>
                                     </li>
                                     <li>
@@ -108,7 +86,7 @@
                                     <strong>Your App</strong>
                                     <div class="description">
                                         <p>
-                                            We have been working very hard to design the new version of our app. Finally it's ready. 
+                                            We have been working very hard to design the new version of our app. Finally it's ready.
                                                     It comes with a lot of new features. Check it out now!
                                         </p>
                                     </div>
@@ -122,8 +100,16 @@
                         </a>
                 </div>
         </div>
+
+
+        <a href="#" class="scrollToTop">
+            <i class="fa fa-arrow-circle-o-up fa-4x bt" title="Subir ao Topo"></i>
+        </a>
+
+
     </body>
 </html>
+
 <!-- App Features -->
 <div class="app-features-container section-container-1">
     <div class="container">
@@ -139,9 +125,9 @@
                             <p>
                                 Começamos mostrando o funcionamento do corpo humano, pois queremos que aprendam o normal para, posteriormente, falarmos sobre o anormal que são as doenças e outras situações que afligem essa faixa-etária como violência, bullying, iniciação no álcool e outras drogras, anorexia, bulimia etc... A partir do entendimento do funcionamento do corpo humano, será fácil compreender qualquer tema de saúde qie venhamos a abordar.
                             </p>
-                  
+
                 </div>
-                <div class="col-md-5" style="position: relative;top: 70px">
+                <div class="col-md-5" style="position: relative;top: 20px">
                     <img alt="" src="img/projeto.jpg"/>
                 </div>
             </div>
@@ -149,7 +135,7 @@
     </div>
     <div>
         <img src="img/lupa.png" style="position:relative;top: 140px">
-        
+
     </div>
 </div>
 
@@ -165,7 +151,7 @@
                 </h2>
                 <div class="col-md-4">
                     <img alt="" src="img/idealizadora.jpg">
-                   
+
                 </div>
                 <div class="col-md-8">
                     <p style="text-align: justify; color: #000">
@@ -217,21 +203,21 @@
                     <img alt="" src="img/livro-1.jpg">
                 </div>
                 <div class="col-md-4">
-                <div align="left">
-                    <span> Série As Aventura do Trio Espuleta</span> <br>
-                    <span style="font-size: 20px; font-weight: bold;">EXPLORANDO O CORAÇÃO</span><br>
-                    <a href="loja.html" class="btn btn-group btn-info"> Comprar Agora</a>
-                </div>
+                    <div align="left">
+                        <span> Série As Aventura do Trio Espuleta</span> <br>
+                        <span style="font-size: 20px; font-weight: bold;">EXPLORANDO O CORAÇÃO</span><br>
+                        <a href="loja.php" class="btn btn-group btn-info"> Comprar Agora</a>
+                    </div>
                 </div>
                 <div class="col-md-8">
                     <img alt="" src="img/livro-2.jpg">
                 </div>
                 <div class="col-md-4">
-                <div align="left">
-                    <span> Série As Aventura do Trio Espuleta</span> <br>
-                    <span style="font-size: 20px; font-weight: bold;">De Repente um Túnel</span><br>
-                    <a href="" class="btn btn-group btn-danger" style="pointer-events: none;"> Não disponível</a>
-                </div>
+                    <div align="left">
+                        <span> Série As Aventura do Trio Espuleta</span> <br>
+                        <span style="font-size: 20px; font-weight: bold;">De Repente um Túnel</span><br>
+                        <a href="" class="btn btn-group btn-danger" style="pointer-events: none;"> Não disponível</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -299,14 +285,17 @@
                     Contato
                 </h2>
                 <div class="col-md-12">
-                    <img alt="" src="img/contato.jpg">
+                    <div align="left" style="left: 38%;position: relative;">
+                        <i class="fa fa-envelope fa-3x pb"></i> trioespuleta@gmail.com <br>
+                        <i class="fa fa-phone  fa-3x pb"></i> 19 99806-0711
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div>
         <a class="scroll-link" href="#top-content">
-            <img src="img/seta.png" style="position: relative;top:100px; z-index: 999; -webkit-transform: rotate(180deg);"/>
+            <img src="img/seta.png" class="img_180" title="Subir ao Topo" />
         </a>
     </div>
 </div>
@@ -357,14 +346,5 @@
         </div>
     </div>
 </div>
-<!-- Javascript -->
-<script src="js/jquery-1.11.1.min.js">
-</script>
-<script src="js/bootstrap.min.js">
-</script>
-<script src="js/wow.min.js">
-</script>
-<script src="js/retina-1.1.0.min.js">
-</script>
-<script src="js/scripts.js">
-</script>
+
+<?php include_once 'parts/querys.php'; ?>

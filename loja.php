@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Trio Espuleta</title>
-    <link href="img/fav.png" rel="icon">
-    <!-- CSS -->
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/typicons.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/form-elements.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/media-queries.css" rel="stylesheet">
-    <script src="js/jquery.min.1.7.js" type="text/javascript">
-    </script>
-    <script src="js/modernizr.2.5.3.min.js" type="text/javascript">
-    </script>
-    <!-- Favicon and touch icons -->
-    <link href="assets/ico/favicon.png" rel="shortcut icon">
-    <link href="apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-    <link href="apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-    <link href="apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-    <link href="apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
-                               
-    </head>
+    <?php include_once 'parts/header.php'; ?>
+
     <body style="overflow-x: hidden;">
         <!-- Top content -->
         <div class="top-content section-container-3">
@@ -51,15 +25,14 @@
                             <div class="col-md-5">
                                 <ul class="nav navbar-nav navbar-left">
                                     <li>
-                                        <a class="" href="index.html">
-                                            Voltar
+                                        <a class="" href="index.php" style="color: red;">
+                                           <i class="fa fa-chevron-left"></i> Voltar
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-2">
-                                <img alt="" src="img/logo.png" style="border:none;">
-                                </img>
+                                <img alt="" src="img/logo.png" class="logotipo">
                             </div>
                         </div>
                     </div>
@@ -68,7 +41,7 @@
             <!-- Always beautiful -->
             <div class="testimonials-container section-container-3 letras-footer">
                 <div class="container">
-                    <div class="row" style="position: relative;top: 50px">
+                    <div class="row" style="position: relative;top: 80px">
                         <div class="col-sm-12 always-beautiful section-description wow fadeIn">
                             <h2 class="letras-footer">
                                 Loja
@@ -113,39 +86,33 @@
                                         Dados para Compra:
                                     </div>
                                     <div class="panel-body">
-                                        <form class="form-horizontal" method="post" action="dados.php" >
+                                        <form class="form-horizontal">
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="text" class="form-control" name="nome" placeholder="Nome" required>
-                                            </div>
-                                          </div>
-
-                                          <div class="form-group">
-                                            <div class="col-sm-12">
-                                              <input type="text" class="form-control" name="email" placeholder="Email" required>
-                                            </div>
-                                          </div>
-                                          <div class="form-group">
-                                            <div class="col-sm-12">
-                                              <input type="text" class="form-control" name="endereco" placeholder="Endereço completo" required>
-                                            </div>
-                                          </div>
-                                          <div class="form-group">
-                                            <div class="col-sm-12">
-                                              <input type="text" class="form-control" name="telefone" placeholder="Telefone" required>
+                                              <input type="text" class="form-control" id="nome" placeholder="Nome">
                                             </div>
                                           </div>
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="text" class="form-control" name="quantidade" placeholder="Quantidade" required>
+                                              <input type="text" class="form-control" id="email" placeholder="Email">
+                                            </div>
+                                          </div>
+                                          <div class="form-group">
+                                            <div class="col-sm-12">
+                                              <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+                                            </div>
+                                          </div>
+                                          <div class="form-group">
+                                            <div class="col-sm-12">
+                                              <input type="text" class="form-control" id="telefone" placeholder="Telefone">
                                             </div>
                                           </div>
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                             <input type="submit" class="btn btn-group btn-success" value="Salvar dados para compra" style="width: 100%">
+                                              <input type="text" class="form-control" id="quantidade" placeholder="Quantidade">
                                             </div>
                                           </div>
                                         </form>
@@ -183,76 +150,7 @@
         </div>
     </body>
 </html>
-<!-- Always beautiful 
-<div class="testimonials-container section-container-2 letras-footer">
-  
-    <div class="container">
-        <div class="row">
-        <div>
-            <h3>Conheça o Livro</h3>
-        </div>
-            <div class="flipbook">
-                <div style="background-image:url(pages/1.jpg)"></div>
-                <div style="background-image:url(pages/2.jpg)"></div>
-                <div style="background-image:url(pages/3.jpg)"></div>
-                <div style="background-image:url(pages/4.jpg)"></div>
-                <div style="background-image:url(pages/5.jpg)"></div>
-                <div style="background-image:url(pages/6.jpg)"></div>
-                <div style="background-image:url(pages/7.jpg)"></div>
-                <div style="background-image:url(pages/8.jpg)"></div>
-                <div style="background-image:url(pages/9.jpg)"></div>
-                <div style="background-image:url(pages/10.jpg)"></div>
-                <div style="background-image:url(pages/11.jpg)"></div>
-                <div style="background-image:url(pages/12.jpg)"></div>
-            </div>
-        </div>
-    </div>
 
-
-
-<script type="text/javascript">
-
-function loadApp() {
-
-    // Create the flipbook
-
-    $('.flipbook').turn({
-            // Width
-
-            width:922,
-            
-            // Height
-
-            height:600,
-
-            // Elevation
-
-            elevation: 50,
-            
-            // Enable gradients
-
-            gradients: true,
-            
-            // Auto center this flipbook
-
-            autoCenter: true
-
-    });
-}
-
-// Load the HTML4 version if there's not CSS transform
-
-yepnope({
-    test : Modernizr.csstransforms,
-    yep: ['lib/turn.js'],
-    nope: ['lib/turn.html4.min.js'],
-    both: ['css/basic.css'],
-    complete: loadApp
-});
-
-</script>
-</div>
--->
 <div class="fuid-container" style="background-color: #009180">
     <div class="row">
         <div class="col-md-12">
@@ -262,14 +160,5 @@ yepnope({
         </div>
     </div>
 </div>
-<!-- Javascript -->
-<script src="js/jquery-1.11.1.min.js">
-</script>
-<script src="js/bootstrap.min.js">
-</script>
-<script src="js/wow.min.js">
-</script>
-<script src="js/retina-1.1.0.min.js">
-</script>
-<script src="js/scripts.js">
-</script>
+
+<?php include_once 'parts/querys.php'; ?>
