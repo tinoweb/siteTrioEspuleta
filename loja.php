@@ -1,36 +1,5 @@
     <?php include_once 'parts/header.php'; ?>
-    
-    <?php
 
-        if(isset($_POST['insert']))
-        {
-            try{
-                $pdoConect = new PDO("mysql:host=localhost;dbname=trioespuleta","root","1234");
-            } catch(PDOException $exc){
-                echo $exc->getMessage();
-                    exit();
-            }
-
-            $nome = $POST['nome'];
-            $email = $POST['email'];
-            $endereco = $POST['endereco'];
-            $teleffone = $POST['telefone'];
-
-            $pdoQuery = "INSERT INTO `compras`(`nome`, `email`, `endereco`, `teleffone`) VALUES (:name,:email,:endereco,:teleffone,[value-5])";
-
-            $pdoResult = $pdoConect->prepare($pdoQuery);
-
-            $pdoExec = $pdoResult->execute(array(":nome"=>$nome,":email"=>$email,":endereco"=>$endereco,":teleffone"=>$teleffone));
-
-            if ($pdoExec) {
-                echo "Dados Salvos";
-            } else {
-                echo "Dados não salvos";
-            }
-
-
-        }
-    ?>
 
 
     <body style="overflow-x: hidden;">
@@ -146,7 +115,7 @@
                             
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra">
+                                              <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra" onclick="saveUser()">
                                             </div>
                                           </div>
 
