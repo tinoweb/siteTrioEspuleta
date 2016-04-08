@@ -1,4 +1,37 @@
     <?php include_once 'parts/header.php'; ?>
+    
+    <?php
+
+        if(isset($_POST['insert']))
+        {
+            try{
+                $pdoConect = new PDO("mysql:host=localhost;dbname=trioespuleta","root","1234");
+            } catch(PDOException $exc){
+                echo $exc->getMessage();
+                    exit();
+            }
+
+            $nome = $POST['nome'];
+            $email = $POST['email'];
+            $endereco = $POST['endereco'];
+            $teleffone = $POST['telefone'];
+
+            $pdoQuery = "INSERT INTO `compras`(`nome`, `email`, `endereco`, `teleffone`) VALUES (:name,:email,:endereco,:teleffone,[value-5])";
+
+            $pdoResult = $pdoConect->prepare($pdoQuery);
+
+            $pdoExec = $pdoResult->execute(array(":nome"=>$nome,":email"=>$email,":endereco"=>$endereco,":teleffone"=>$teleffone));
+
+            if ($pdoExec) {
+                echo "Dados Salvos";
+            } else {
+                echo "Dados não salvos";
+            }
+
+
+        }
+    ?>
+
 
     <body style="overflow-x: hidden;">
         <!-- Top content -->
@@ -86,36 +119,39 @@
                                         Dados para Compra:
                                     </div>
                                     <div class="panel-body">
-                                        <form class="form-horizontal">
+                                        <form class="form-horizontal" action="loja.php" method="post">
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="text" class="form-control" id="nome" placeholder="Nome">
-                                            </div>
-                                          </div>
-
-                                          <div class="form-group">
-                                            <div class="col-sm-12">
-                                              <input type="text" class="form-control" id="email" placeholder="Email">
-                                            </div>
-                                          </div>
-                                          <div class="form-group">
-                                            <div class="col-sm-12">
-                                              <input type="text" class="form-control" id="endereco" placeholder="Endereço">
-                                            </div>
-                                          </div>
-                                          <div class="form-group">
-                                            <div class="col-sm-12">
-                                              <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                                              <input type="text" class="form-control" name="nome" placeholder="Nome" required>
                                             </div>
                                           </div>
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="text" class="form-control" id="quantidade" placeholder="Quantidade">
+                                              <input type="text" class="form-control" name="email" placeholder="Email" required>
                                             </div>
                                           </div>
+                                          <div class="form-group">
+                                            <div class="col-sm-12">
+                                              <input type="text" class="form-control" name="endereco" placeholder="Endereço" required>
+                                            </div>
+                                          </div>
+                                          <div class="form-group">
+                                            <div class="col-sm-12">
+                                              <input type="text" class="form-control" name="telefone" placeholder="Telefone" required>
+                                            </div>
+                                          </div>
+
+                            
+                                          <div class="form-group">
+                                            <div class="col-sm-12">
+                                              <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra">
+                                            </div>
+                                          </div>
+
                                         </form>
+
                                            <div class="form-group">
                                                 <div class="col-sm-6">
                                                     <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
