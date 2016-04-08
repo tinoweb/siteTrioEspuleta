@@ -340,7 +340,7 @@
 <div class="fuid-container" style="background-color: #009180">
     <div class="row">
         <div class="col-md-12">
-            <p style="text-align: justify; color: rgba(181, 167, 167, 0.91); font-size: 13px; position:relative; left: 30%">
+            <p style="text-align: justify; color: rgb(255, 161, 0); font-size: 13px; position:relative; left: 30%">
                 Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: SoftLike
             </p>
         </div>
