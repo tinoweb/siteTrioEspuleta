@@ -1,34 +1,29 @@
-<?php 
+<?php
+
  $username = "root";
- $password = "1234";
-  
-try {
-    $conn = new PDO('mysql:host=localhost;dbname=trioespuleta', $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  
-  
-} catch(PDOException $e) {
-    echo 'ERROR: ' . $e->getMessage();
-}
+ $password = "tino";
 
 
-$sql = "INSERT INTO compras(nome,
-            email,
-            endereco,
-            telefone) VALUES (
-            :nome, 
-            :email, 
-            :endereco, 
-            :telefone)";
-                                          
-$stmt = $pdo->prepare($sql);
-                                              
-$stmt->bindParam(':nome', $_POST['nome'], PDO::PARAM_STR);       
-$stmt->bindParam(':email', $_POST['email'], PDO::PARAM_STR); 
-$stmt->bindParam(':endereco', $_POST['endereco'], PDO::PARAM_STR);
-$stmt->bindParam(':telefone', $_POST['telefone'], PDO::PARAM_STR);   
-                                      
-$stmt->execute(); 
+ include_once  "conexao.php";
+
+ $nome          = $_POST['nome'];
+ $email          = $_POST['email'];
+ $endereco    = $_POST['endereco'];
+ $telefone      = $_POST['telefone'];
+
+ $sql = "INSERT INTO compras (nome, email, endereco, teleffone) VALUES ('$nome', '$email', '$endereco','$telefone')";
+
+ mysql_query($sql) or die(error());
+
+ if (mysql_query($sql)) {
+    echo "Dados enviados com sucesso!";
+ }else{
+    echo "Falha ao enviar os dados!";
+ }
+
+ // $response = array("success" => true);
+ // echo json_encode($response);
+
 
 
  ?>

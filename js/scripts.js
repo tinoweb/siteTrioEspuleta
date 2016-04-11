@@ -69,6 +69,36 @@ jQuery(document).ready(function() {
         return false;
       });
 
+      /// Quando usuário clicar em salvar será feito todos os passo abaixo
+      $('form#formDcompra').on('submit',function(event) {
+             event.preventDefault();
+             var dados = $(this).serialize();
+             console.log(dados);
+             $.ajax({ type: 'POST' ,
+                           url: 'dados.php' ,
+                           data: dados ,
+                           beforeSend: function() {
+                                console.log('Enviando...');
+                            },
+                            success: function(data) {
+                                $('#formDcompra')[0].reset();
+                                console.log('enserido com sucesso');
+                                $("#result").html(data);
+                                  $('#formDcompra').hide('slow/400/fast', function() {
+                                  });
+                                escondeAlert();
+                            }
+                        });
+                    return false;
+      });
+
+      function escondeAlert(){
+          setTimeout(function() {
+              $("#result").hide('slow/400/fast', function() {});
+          }, 3000);
+      };
+
+
 });
 
 
@@ -86,5 +116,6 @@ jQuery(window).load(function() {
 	$(".modal-body img, .testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 
 });
+
 
 
