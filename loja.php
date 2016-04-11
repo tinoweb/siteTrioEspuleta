@@ -1,5 +1,6 @@
     <?php include_once 'parts/header.php'; ?>
 
+
     <body style="overflow-x: hidden;">
         <!-- Top content -->
         <div class="top-content section-container-3">
@@ -119,7 +120,7 @@
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra">
+                                              <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra" onclick="saveUser()">
                                             </div>
                                           </div>
 

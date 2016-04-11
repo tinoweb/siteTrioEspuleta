@@ -65,7 +65,7 @@
                                     </li>
                                     <li>
                                         <a class="scroll-link" href="#blog">
-                                          </i>  Blog
+                                         Blog
                                         </a>
                                     </li>
                                     <li>
@@ -79,32 +79,58 @@
                     </div>
                 </div>
             </nav>
-                    <div class="inner-bg">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-7 text wow fadeInUp">
-                                    <strong>Your App</strong>
-                                    <div class="description">
-                                        <p>
-                                            We have been working very hard to design the new version of our app. Finally it's ready.
-                                                    It comes with a lot of new features. Check it out now!
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="w3-content" style="max-width:100%;position:relative; top: 15px">
+
+            <div class="w3-display-container mySlides">
+              <img src="img/slide-1.png" style="width:100%">
+            </div>
+
+            <div class="w3-display-container mySlides">
+              <img src="img/slide-2.png" style="width:100%;">
+            </div>
+
+
+
+
+            <a class="w3-btn-floating img_180" style="position:absolute;top:52%;left:15%" onclick="plusDivs(-1)"><img src="img/next.png"></a>
+            <a class="w3-btn-floating" style="position:absolute;top:52%;right:15%" onclick="plusDivs(1)"><img src="img/next.png"></a>
+
+            </div>
+
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length} ;
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";
+                  }
+                  x[slideIndex-1].style.display = "block";
+                }
+                </script>
+
+
                 <div>
                         <a class="scroll-link" href="#app-features">
-                         <img src="img/seta.png" style="position: relative;top: 30px">
+                         <img src="img/seta.png" style="position: relative;top: 30px;">
                         </a>
                 </div>
+                <a href="#" class="scrollToTop">
+            <i class="fa fa-arrow-circle-o-up fa-4x bt" title="Subir ao Topo"></i>
+        </a>
         </div>
 
 
-        <a href="#" class="scrollToTop">
-            <i class="fa fa-arrow-circle-o-up fa-4x bt" title="Subir ao Topo"></i>
-        </a>
+
 
     </body>
 </html>
