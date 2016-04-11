@@ -21,9 +21,6 @@
     echo "Falha ao enviar os dados!";
  }
 
- // $response = array("success" => true);
- // echo json_encode($response);
-
 
 
  ?>
