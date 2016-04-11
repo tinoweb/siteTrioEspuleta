@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </nav>
-             
+
             <div class="w3-content" style="max-width:100%;position:relative; top: 15px">
 
             <div class="w3-display-container mySlides">
@@ -98,25 +98,25 @@
 
             </div>
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+                <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length} ;
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";
+                  }
+                  x[slideIndex-1].style.display = "block";
+                }
+                </script>
 
 
                 <div>
@@ -130,7 +130,6 @@ function showDivs(n) {
         </div>
 
 
-        
 
 
     </body>
@@ -366,7 +365,7 @@ function showDivs(n) {
 <div class="fuid-container" style="background-color: #009180">
     <div class="row">
         <div class="col-md-12">
-            <p style="text-align: justify; color: rgba(181, 167, 167, 0.91); font-size: 13px; position:relative; left: 30%">
+            <p style="text-align: justify; color: rgb(255, 161, 0); font-size: 13px; position:relative; left: 30%">
                 Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: SoftLike
             </p>
         </div>

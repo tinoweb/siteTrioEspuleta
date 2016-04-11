@@ -1,13 +1,14 @@
     <?php include_once 'parts/header.php'; ?>
 
 
-
     <body style="overflow-x: hidden;">
         <!-- Top content -->
         <div class="top-content section-container-3">
             <!-- Top menu -->
             <nav class="navbar navbar-inverse na vbar-no-bg" role="navigation" style=" width: 100%;">
+
                 <div class="container">
+
                     <div class="navbar-header">
                         <button class="navbar-toggle collapsed" data-target="#top-navbar-1" data-toggle="collapse" type="button">
                             <span class="sr-only">
@@ -21,6 +22,7 @@
                             </span>
                         </button>
                     </div>
+
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse cor-menu" id="top-navbar-1">
                         <div class="row">
@@ -39,15 +41,19 @@
                         </div>
                     </div>
                 </div>
+
             </nav>
+
             <!-- Always beautiful -->
             <div class="testimonials-container section-container-3 letras-footer">
                 <div class="container">
                     <div class="row" style="position: relative;top: 80px">
-                        <div class="col-sm-12 always-beautiful section-description wow fadeIn">
+
                             <h2 class="letras-footer">
                                 Loja
                             </h2>
+                        <div id="result" role="alert" style="color: #54F723;">
+
                         </div>
                         <div class="row">
                             <div class="col-md-4">
@@ -88,7 +94,7 @@
                                         Dados para Compra:
                                     </div>
                                     <div class="panel-body">
-                                        <form class="form-horizontal" action="loja.php" method="post">
+                                        <form class="form-horizontal" id="formDcompra">
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
@@ -112,7 +118,6 @@
                                             </div>
                                           </div>
 
-                            
                                           <div class="form-group">
                                             <div class="col-sm-12">
                                               <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra" onclick="saveUser()">

@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `compras` (
   `nome` int(100) NOT NULL,
   `email` int(100) NOT NULL,
   `endereco` int(200) NOT NULL,
-  `teleffone` int(11) NOT NULL,
+  `telefone` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
