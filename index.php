@@ -80,53 +80,43 @@
                 </div>
             </nav>
 
-            <div class="w3-content" style="max-width:100%;position:relative; top: 15px">
+<div class="row" style="position: relative; top: 15px">
+        <!-- Carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-            <div class="w3-display-container mySlides">
-              <img src="img/slide-1.png" style="width:100%">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/slide-1.png" alt="First slide">
+                    <!-- Static Header -->
+                </div>
+                <div class="item">
+                    <img src="img/slide-1.png" alt="Second slide">
+                    <!-- Static Header -->
+
+                </div>
+               
             </div>
-
-            <div class="w3-display-container mySlides">
-              <img src="img/slide-2.png" style="width:100%;">
-            </div>
-
-
-
-
-            <a class="w3-btn-floating img_180" style="position:absolute;top:52%;left:15%" onclick="plusDivs(-1)"><img src="img/next.png"></a>
-            <a class="w3-btn-floating" style="position:absolute;top:52%;right:15%" onclick="plusDivs(1)"><img src="img/next.png"></a>
-
-            </div>
-
-                <script>
-                var slideIndex = 1;
-                showDivs(slideIndex);
-
-                function plusDivs(n) {
-                  showDivs(slideIndex += n);
-                }
-
-                function showDivs(n) {
-                  var i;
-                  var x = document.getElementsByClassName("mySlides");
-                  if (n > x.length) {slideIndex = 1}
-                  if (n < 1) {slideIndex = x.length} ;
-                  for (i = 0; i < x.length; i++) {
-                     x[i].style.display = "none";
-                  }
-                  x[slideIndex-1].style.display = "block";
-                }
-                </script>
-
+            <!-- Controls -->
+            <!--<a href="#carousel-example-generic" data-slide="prev" >
+                <i class="voltar"> <img src="img/next.png" style="-webkit-transform: rotate(180deg);"> </i>
+            </a>
+            <a class="" href="#carousel-example-generic" data-slide="next">
+               <i class="ir"> <img src="img/next.png"></i>
+            </a>-->
+        </div><!-- /carousel -->
 
                 <div>
                         <a class="scroll-link" href="#app-features">
-                         <img src="img/seta.png" style="position: relative;top: 30px;">
+                         <img src="img/seta.png" style="position: relative;top: 30px; z-index: 999;">
                         </a>
                 </div>
                 <a href="#" class="scrollToTop">
             <i class="fa fa-arrow-circle-o-up fa-4x bt" title="Subir ao Topo"></i>
         </a>
+
+</div>
+
         </div>
 
 
@@ -199,15 +189,77 @@
                 <h2 class="letras-footer">
                     Trio Espuleta
                 </h2>
-                <div class="col-md-6">
-                    <img alt="" src="img/trio.jpg">
+            </div>
+
+            <script >
+                function showDiv( idName, value ){
+    objDiv = document.getElementById( idName );
+    if( value )
+        objDiv.style.display = "";
+    else
+        objDiv.style.display = "none";
+}
+            </script>
+                        
+
+
+     
+                        
+                <div class="col-md-8">
+                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', true );showDiv( 'd2', false );showDiv( 'd3', false );">
+                        <img  src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;" 
+                            onMouseOver="this.src='img/mirela.png'"
+                            onMouseOut="this.src='img/mirela_transp.png'"
+                            onClick=""
+                        />
+                    </a>
+
+                    <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', true );showDiv( 'd3', false );">
+                        <img src="img/mikaela_transp.png" style="position: relative; width: 200px" 
+                            onMouseOver="this.src='img/mikaela.png'"
+                            onMouseOut="this.src='img/mikaela_transp.png'"
+                            onClick=""
+                        />
+                    </a>
+
+                    <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', false );showDiv( 'd3', true );">
+                        <img src="img/luca_transp.png" style="position: relative; width: 200px; left: -80px;" 
+                            onMouseOver="this.src='img/luca.png'"
+                            onMouseOut="this.src='img/luca_transp.png'"
+                            onClick=""
+                        />
+                    </a>
+
                 </div>
-                <div class="col-md-6">
-                    <p style="text-align: justify;">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, magni aspernatur rem harum sed pariatur non labore eos eaque temporibus neque illum vel animi eius nobis iure, exercitationem, inventore, obcaecati.
+                <div class="col-md-4">
+
+                <div id="d1" style="display: none">
+                    <h4>Mirela</h4>
+                     <p style="text-align: justify;">
+                       Mirela é a Caçulinha do grupo, mas é tão espuleta quanto as crianças maiores.
+                       Graciosa e esperta, ela surpreende com suas perguntas e comentários bem humorados.
                     </p>
                 </div>
-            </div>
+
+
+                <div id="d2" style="display: none">
+                    <h4>Mikaela</h4>
+                     <p style="text-align: justify;">
+                       Mikaela a maior dos três e também a líder.
+                       É inteligente e animada está sempre protegendo os menores em suas aventuras.
+                    </p>
+                </div> 
+
+                <div id="d3" style="display: none">
+                <h4>Lucca</h4>
+                     <p style="text-align: justify;">
+                        Lucca é o priminho das Mimis. Não moram perto, mas estão sempre viajando juntos ou se encontrando na casa dos tios ou avós.
+                        É o mais corajoso e também curioso. Com ele perto as aventuras acontecem.
+                    </p>
+                </div>
+                   
+                </div>
+            
         </div>
     </div>
     <div>
@@ -269,9 +321,12 @@
                     <img alt="" src="img/coracao.jpg">
                 </div>
                 <div class="col-md-3" style="position: relative; left:-12%; top:55px">
-                    <img alt="" src="img/musica.jpg">
+
+                     <span id="dummy" onclick="playSound(this, 'audio/musica.mp3');">
+                 <img src="img/musica.jpg" name="Bottom-1" width="115" height="45" border="0" id="Bottom-1"/>
+                    </span>
+
                 </div>
-            </div>
         </div>
     </div>
     <div>
