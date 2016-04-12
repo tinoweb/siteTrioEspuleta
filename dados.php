@@ -1,7 +1,7 @@
 <?php
 
  $username = "root";
- $password = "tino";
+ $password = "1234";
 
 
  include_once  "conexao.php";

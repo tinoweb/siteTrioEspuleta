@@ -26,10 +26,6 @@ a, a:hover, a:focus {
     z-index: 999;
 }
 
-.back{
-	
-}
-
 .scrollToTop{
   width:100px;
   height:130px;
@@ -69,6 +65,26 @@ a, a:hover, a:focus {
 }
 
 /******************************/
+
+/*************slide******************/
+.ir{
+	position: relative;
+	top:-280px;
+	left: 30%;
+}
+
+.voltar{
+	position: relative;
+	top:-280px;
+	right: 30%;
+}
+/************fim slide***************/
+
+
+
+/*************Trio espuleta******************/
+
+/************fim Trio espuleta***************/
 
 h1, h2 {
 	margin-top: 10px;
