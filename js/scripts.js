@@ -14,9 +14,8 @@ function scroll_to(clicked_link, nav_height) {
 
 jQuery(document).ready(function() {
 
-	/*
-	    Navigation
-	*/
+	$('#example').DataTable();
+
 	$('a.scroll-link').on('click', function(e) {
 		e.preventDefault();
 		scroll_to($(this), 0);
