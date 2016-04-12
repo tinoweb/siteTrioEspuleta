@@ -201,7 +201,7 @@
               </div>
           <!-- endcontent -->
           <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-          <script src="../js/scripts.js"></script>
+          <script src="core.js"></script>
           <script src="../js/bootstrap.min.js"></script>
           <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
           <script src="https://cdn.datatables.net/1.10.11/js/dataTables.bootstrap.min.js"></script>

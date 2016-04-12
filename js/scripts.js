@@ -14,13 +14,19 @@ function scroll_to(clicked_link, nav_height) {
 
 jQuery(document).ready(function() {
 
-	$('#example').DataTable();
 
 	$('a.scroll-link').on('click', function(e) {
 		e.preventDefault();
 		scroll_to($(this), 0);
 	});
 
+
+      $("#dummy").click(function(event) {
+        console.log('funfando..');
+        $(this).attr('src', 'audio/musica.mp3');
+        $(this).play();
+        // onclick="playSound(this, 'audio/musica.mp3');
+      });
     /*
         Background slideshow
 

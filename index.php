@@ -95,7 +95,7 @@
                     <!-- Static Header -->
 
                 </div>
-               
+
             </div>
             <!-- Controls -->
             <!--<a href="#carousel-example-generic" data-slide="prev" >
@@ -193,21 +193,21 @@
 
             <script >
                 function showDiv( idName, value ){
-    objDiv = document.getElementById( idName );
-    if( value )
-        objDiv.style.display = "";
-    else
-        objDiv.style.display = "none";
-}
+                    objDiv = document.getElementById( idName );
+                    if( value )
+                        objDiv.style.display = "";
+                    else
+                        objDiv.style.display = "none";
+                }
             </script>
-                        
 
 
-     
-                        
+
+
+
                 <div class="col-md-8">
                      <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', true );showDiv( 'd2', false );showDiv( 'd3', false );">
-                        <img  src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;" 
+                        <img   src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;"
                             onMouseOver="this.src='img/mirela.png'"
                             onMouseOut="this.src='img/mirela_transp.png'"
                             onClick=""
@@ -215,7 +215,7 @@
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', true );showDiv( 'd3', false );">
-                        <img src="img/mikaela_transp.png" style="position: relative; width: 200px" 
+                        <img src="img/mikaela_transp.png" style="position: relative; width: 200px"
                             onMouseOver="this.src='img/mikaela.png'"
                             onMouseOut="this.src='img/mikaela_transp.png'"
                             onClick=""
@@ -223,7 +223,7 @@
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', false );showDiv( 'd3', true );">
-                        <img src="img/luca_transp.png" style="position: relative; width: 200px; left: -80px;" 
+                        <img src="img/luca_transp.png" style="position: relative; width: 200px; left: -80px;"
                             onMouseOver="this.src='img/luca.png'"
                             onMouseOut="this.src='img/luca_transp.png'"
                             onClick=""
@@ -248,7 +248,7 @@
                        Mikaela a maior dos três e também a líder.
                        É inteligente e animada está sempre protegendo os menores em suas aventuras.
                     </p>
-                </div> 
+                </div>
 
                 <div id="d3" style="display: none">
                 <h4>Lucca</h4>
@@ -257,9 +257,9 @@
                         É o mais corajoso e também curioso. Com ele perto as aventuras acontecem.
                     </p>
                 </div>
-                   
+
                 </div>
-            
+
         </div>
     </div>
     <div>
@@ -322,9 +322,15 @@
                 </div>
                 <div class="col-md-3" style="position: relative; left:-12%; top:55px">
 
-                     <span id="dummy" onclick="playSound(this, 'audio/musica.mp3');">
-                 <img src="img/musica.jpg" name="Bottom-1" width="115" height="45" border="0" id="Bottom-1"/>
-                    </span>
+                     <!-- <span id="dummy">
+                        <img src="img/musica.jpg" name="Bottom-1" width="115" height="45" border="0" id="Bottom-1"/>
+                    </span> -->
+
+                    <audio id="bg_audio" controls="controls">
+                        <source src="audio_file.ogg" type="audio/ogg">
+                        <source src="audio/musica.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
 
                 </div>
         </div>
