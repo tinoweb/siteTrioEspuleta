@@ -1,6 +1,6 @@
 <?php
 //Connects to your Database
-$conect = mysqli_connect("127.0.0.1","root","tino", "trioespuleta") or die(mysql_error());
+$conect = mysqli_connect("127.0.0.1","root","1234", "trioespuleta") or die(mysql_error());
 
 //Checks if there is a login cookie
 if(isset($_COOKIE['usuario'])){ //if there is, it logs you in and directes you to the members page

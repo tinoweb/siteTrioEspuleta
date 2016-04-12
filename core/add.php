@@ -1,7 +1,8 @@
 <?php
 //Connects to your Database
-mysql_connect("localhost", "root", "tino") or die(mysql_error());
-mysql_select_db("trioespuleta") or die(mysql_error());
+
+include_once '../conexao.php';
+
 //This code runs if the form has been submitted
 if (isset($_POST['submit'])) {
 //This makes sure they did not leave any fields blank
