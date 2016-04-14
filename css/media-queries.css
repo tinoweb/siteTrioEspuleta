@@ -105,4 +105,7 @@ only screen and (                min-resolution: 2dppx) {
     	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 97px 29px !important;
     }
 	
+	.body{
+		overflow-x: hidden;
+	}
 }

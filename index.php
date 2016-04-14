@@ -1,7 +1,7 @@
 <?php include_once 'parts/header.php'; ?>
 
 
-    <body style="overflow-x: hidden;">
+    <body style="overflow-x: hidden;" class="body">
         <!-- Top content -->
         <div class="top-content section-container-5">
             <!-- Top menu -->
@@ -80,7 +80,7 @@
                 </div>
             </nav>
 
-<div class="row" style="position: relative; top: 15px">
+<div class="row" style="position: relative; top: 20px; width: auto">
         <!-- Carousel -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
