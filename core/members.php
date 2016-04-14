@@ -2,6 +2,22 @@
 
   include_once  "../conexao.php";
 
+
+    if (isset($_GET['id'])) {
+      if(isset($_GET['id'])> 0) {
+        $id = $_GET['id'];
+       $del = mysql_query("DELETE FROM `compras` WHERE `id` ='$id'")or die(mysql_error());
+
+       echo "<script> alert('deletado com sucesso!');
+       document.location.href ='members.php';</script>";
+
+      }
+
+    }
+    
+
+
+
  //checks cookies to make sure they are logged in
  if(isset($_COOKIE['usuario'])){
   $username = $_COOKIE['usuario'];
@@ -163,7 +179,7 @@
                                     <th>Endereço</th>
                                     <th>Telefone</th>
                                     <th align="center">
-                                            <a class="btn btn-default"><em class="fa fa-cogs fa-2x"></em></a>
+                                            <aclass="btn btn-default"><em class="fa fa-cogs fa-2x"></em></a>
                                     </th>
                                 </tr>
                             </thead>
@@ -179,7 +195,7 @@
                                     <td><?=$linha['teleffone']?></td>
                                     <td align="center">
                                             <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
-                                            <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
+                                            <a href="members.php?id=<?=$linha['id']?>" class="btn btn-danger"><em class="fa fa-trash"> </em> </a>
                                     </td>
                                 </tr>
                                 <?php
