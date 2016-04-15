@@ -91,7 +91,7 @@ jQuery(document).ready(function() {
                                 $("#result").html(data);
                                   $('#formDcompra').hide('slow/400/fast', function() {
                                   });
-                                escondeAlert();
+                                //escondeAlert();
                             }
                         });
                     return false;

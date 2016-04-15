@@ -327,7 +327,7 @@
                     </span> -->
 
                     <audio id="bg_audio" controls="controls">
-                        <source src="audio_file.ogg" type="audio/ogg">
+                        <source src="#" type="audio/ogg">
                         <source src="audio/musica.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
