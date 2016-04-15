@@ -27,6 +27,8 @@ jQuery(document).ready(function() {
         $(this).play();
         // onclick="playSound(this, 'audio/musica.mp3');
       });
+
+  $('.slideClass').css('width', '100%');   
     /*
         Background slideshow
 
@@ -91,7 +93,7 @@ jQuery(document).ready(function() {
                                 $("#result").html(data);
                                   $('#formDcompra').hide('slow/400/fast', function() {
                                   });
-                                //escondeAlert();
+                                escondeAlert();
                             }
                         });
                     return false;

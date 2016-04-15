@@ -37,7 +37,7 @@ a, a:hover, a:focus {
   text-decoration: none;
   position:fixed;
   top:31em;
-  right:40px;
+  right:70px;
   display:none;
   z-index: 1000;
   /*background: url('../img/seta.png') no-repeat 0px 20px;*/
@@ -62,6 +62,13 @@ a, a:hover, a:focus {
     position: relative;
     top: 8px;
     margin-right: 11px;
+}
+.descPers{
+	color: #FFFFFF;
+    border: solid 1px;
+    width: 40%;
+    background-color: #01AA97;
+    padding: 4px;
 }
 
 /******************************/
@@ -119,7 +126,7 @@ img { max-width: 100%; }
 /***** General style, all sections *****/
 .section-container {
     margin: 0 auto;
-    padding-bottom: 80px;
+    /*padding-bottom: 80px;*/
     background-color: #fff;
 }
 
@@ -663,7 +670,7 @@ ul.navbar-nav {
 
 
 .divirta-se-container {
-	padding-bottom: 70px;
+	/*padding-bottom: 70px;*/
 }
 
 .blog-container {
