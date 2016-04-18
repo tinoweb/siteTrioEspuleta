@@ -83,6 +83,10 @@
                                                     <td class="info">Numero de Páginas:</td>
                                                     <td class="success">100</td>
                                                   </tr>
+                                                  <tr>
+                                                    <td class="info">Total</td>
+                                                    <td class="success pricebook">R$ 30,00</td>
+                                                  </tr>
                                                 </tbody>
                                               </table>
                                     </div>
@@ -164,8 +168,10 @@
 <div class="fuid-container" style="background-color: #009180">
     <div class="row">
         <div class="col-md-12">
-            <p style="text-align: justify; color: rgba(181, 167, 167, 0.91); font-size: 13px; position:relative; left: 30%">
-                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: SoftLike
+            <p style="text-align: justify; color: rgb(255, 161, 0); font-size: 13px; position:relative; left: 30%">
+                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: <a target="_blank" href="http://www.softlike.com.br" style="
+    color: #fff;
+">Softlike</a>
             </p>
         </div>
     </div>

@@ -15,7 +15,9 @@ a, a:hover, a:focus {
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
+
 /************tino css****************/
+
 .navbar {
      border-radius: 0px !important;
 }
@@ -40,12 +42,12 @@ a, a:hover, a:focus {
   right:70px;
   display:none;
   z-index: 1000;
-  /*background: url('../img/seta.png') no-repeat 0px 20px;*/
-  /*-webkit-transform: rotate(180deg);*/
 }
+
 .scrollToTop:hover{
   text-decoration:none;
 }
+
 .img_180{
   position: relative;
   top:100px;
@@ -70,8 +72,13 @@ a, a:hover, a:focus {
     background-color: #01AA97;
     padding: 4px;
 }
+.pricebook{
+	background: #5CB85C !important;
+    font-weight: 400;
+    color: #F8F8F8;
+}
 
-/******************************/
+/*************** TINO ***************/
 
 /*************slide******************/
 .ir{

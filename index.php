@@ -431,7 +431,7 @@
     <div class="row">
         <div class="col-md-12">
             <p style="text-align: justify; color: rgb(255, 161, 0); font-size: 13px; position:relative; left: 30%">
-                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: <a href="http://www.softlike.com.br" style="
+                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: <a target="_blank" href="http://www.softlike.com.br" style="
     color: #fff;
 ">Softlike</a>
             </p>
