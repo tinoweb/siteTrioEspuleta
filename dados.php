@@ -1,7 +1,7 @@
 <?php
 
  $username = "root";
- $password = "1234";
+ $password = "";
 
 
  include_once  "conexao.php";
@@ -11,7 +11,11 @@
  $endereco    = $_POST['endereco'];
  $telefone      = $_POST['telefone'];
 
- $sql = "INSERT INTO compras (nome, email, endereco, teleffone) VALUES ('$nome', '$email', '$endereco','$telefone')";
+ // Estados do Pedidos
+ // -> processando (P)
+ // -> entregue (E)
+
+ $sql = "INSERT INTO compras (nome, email, endereco, teleffone, estado_pedido) VALUES ('$nome', '$email', '$endereco','$telefone', 'P')";
 
  mysql_query($sql) or die(error());
 

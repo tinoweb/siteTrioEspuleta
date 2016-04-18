@@ -27,6 +27,8 @@ jQuery(document).ready(function() {
         $(this).play();
         // onclick="playSound(this, 'audio/musica.mp3');
       });
+
+  $('.slideClass').css('width', '100%');   
     /*
         Background slideshow
 

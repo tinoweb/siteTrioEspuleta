@@ -1,6 +1,6 @@
 <?php
 //Connects to your Database
-$conect = mysqli_connect("127.0.0.1","root","1234", "trioespuleta") or die(mysql_error());
+$conect = mysqli_connect("127.0.0.1","root","", "trioespuleta") or die(mysql_error());
 
 //Checks if there is a login cookie
 if(isset($_COOKIE['usuario'])){ //if there is, it logs you in and directes you to the members page
@@ -36,7 +36,7 @@ if(isset($_COOKIE['usuario'])){ //if there is, it logs you in and directes you t
 
   $check2 = mysqli_num_rows($check);
     if ($check2 == 0){
-     die('That user does not exist in our database.<br /><br />If you think this is wrong <a href="index.php">try again</a>.');
+     die('Esse usuario não existe no Banco.<br /><br />If you think this is wrong <a href="index.php">try again</a>.');
     }
 
 while($info = mysqli_fetch_array( $check )){
@@ -71,7 +71,7 @@ else{
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>core</title>
-  <link rel="stylesheet" href="">
+   <link rel="icon" type="image/png" href="system.ico">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <style>
       body{padding-top:100px;}
@@ -102,7 +102,10 @@ else{
                           </fieldset>
                       </form>
                   </div>
+
               </div>
+              <div align="center">Voltar ao site <a href="../index.php">click aki...</a></div>
+                
             </div>
           </div>
         </div>

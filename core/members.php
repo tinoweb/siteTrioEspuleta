@@ -43,6 +43,7 @@
        <meta charset="utf-8">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <title>Sitema Trioespuleta</title>
+       <link rel="icon" type="image/png" href="system.ico">
        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/dataTables.bootstrap.min.css" type='text/css'>
@@ -96,7 +97,7 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                         <span class="fa fa-user"></span> 
-                                        <strong>Nombre</strong>
+                                        <strong>Admin</strong>
                                         <em class="fa fa-chevron-down"></em>
                                     </a>
                                     <ul class="dropdown-menu">
@@ -178,6 +179,7 @@
                                     <th>Email</th>
                                     <th>Endereço</th>
                                     <th>Telefone</th>
+                                    <th>Estado pedido</th>
                                     <th align="center">
                                             <aclass="btn btn-default"><em class="fa fa-cogs fa-2x"></em></a>
                                     </th>
@@ -193,6 +195,14 @@
                                     <td><?=$linha['email']?></td>
                                     <td><?=$linha['endereco']?></td>
                                     <td><?=$linha['teleffone']?></td>
+                                    <td>
+                                    <?php if ($linha['estado_pedido']=='P') {
+                                      echo "<spam style='color: #D4923E;'>Em processo...</spam>";
+                                    }elseif ($linha['estado_pedido']=='E') {
+                                      echo "<spam style='color: #1CCC43;'>Vendido/Entregado</spam>";
+                                    }
+                                    ?>
+                                    </td>
                                     <td align="center">
                                             <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
                                             <a href="members.php?id=<?=$linha['id']?>" class="btn btn-danger"><em class="fa fa-trash"> </em> </a>

@@ -87,11 +87,11 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="img/slide-1.png" alt="First slide">
+                    <img class="slideClass" src="img/slide-1.png" alt="First slide">
                     <!-- Static Header -->
                 </div>
                 <div class="item">
-                    <img src="img/slide-1.png" alt="Second slide">
+                    <img class="slideClass" src="img/slide-1.png" alt="Second slide">
                     <!-- Static Header -->
 
                 </div>
@@ -201,13 +201,9 @@
                 }
             </script>
 
-
-
-
-
                 <div class="col-md-8">
                      <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', true );showDiv( 'd2', false );showDiv( 'd3', false );">
-                        <img   src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;"
+                        <img title="Click para me conhecer" src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;"
                             onMouseOver="this.src='img/mirela.png'"
                             onMouseOut="this.src='img/mirela_transp.png'"
                             onClick=""
@@ -215,7 +211,7 @@
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', true );showDiv( 'd3', false );">
-                        <img src="img/mikaela_transp.png" style="position: relative; width: 200px"
+                        <img title="Click para me conhecer" src="img/mikaela_transp.png" style="position: relative; width: 200px"
                             onMouseOver="this.src='img/mikaela.png'"
                             onMouseOut="this.src='img/mikaela_transp.png'"
                             onClick=""
@@ -223,7 +219,7 @@
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', false );showDiv( 'd3', true );">
-                        <img src="img/luca_transp.png" style="position: relative; width: 200px; left: -80px;"
+                        <img title="Click para me conhecer" src="img/luca_transp.png" style="position: relative; width: 200px; left: -80px;"
                             onMouseOver="this.src='img/luca.png'"
                             onMouseOut="this.src='img/luca_transp.png'"
                             onClick=""
@@ -234,7 +230,7 @@
                 <div class="col-md-4">
 
                 <div id="d1" style="display: none">
-                    <h4>Mirela</h4>
+                    <h4 class="descPers">Mirela</h4>
                      <p style="text-align: justify;">
                        Mirela é a Caçulinha do grupo, mas é tão espuleta quanto as crianças maiores.
                        Graciosa e esperta, ela surpreende com suas perguntas e comentários bem humorados.
@@ -243,7 +239,7 @@
 
 
                 <div id="d2" style="display: none">
-                    <h4>Mikaela</h4>
+                    <h4 class="descPers">Mikaela</h4>
                      <p style="text-align: justify;">
                        Mikaela a maior dos três e também a líder.
                        É inteligente e animada está sempre protegendo os menores em suas aventuras.
@@ -251,7 +247,7 @@
                 </div>
 
                 <div id="d3" style="display: none">
-                <h4>Lucca</h4>
+                    <h4 class="descPers">Lucca</h4>
                      <p style="text-align: justify;">
                         Lucca é o priminho das Mimis. Não moram perto, mas estão sempre viajando juntos ou se encontrando na casa dos tios ou avós.
                         É o mais corajoso e também curioso. Com ele perto as aventuras acontecem.
@@ -335,7 +331,7 @@
                     </span> -->
 
                     <audio id="bg_audio" controls="controls">
-                        <source src="audio_file.ogg" type="audio/ogg">
+                        <source src="#" type="audio/ogg">
                         <source src="audio/musica.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
@@ -435,7 +431,9 @@
     <div class="row">
         <div class="col-md-12">
             <p style="text-align: justify; color: rgb(255, 161, 0); font-size: 13px; position:relative; left: 30%">
-                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: SoftLike
+                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: <a href="http://www.softlike.com.br" style="
+    color: #fff;
+">Softlike</a>
             </p>
         </div>
     </div>
