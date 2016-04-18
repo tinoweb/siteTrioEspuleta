@@ -309,8 +309,16 @@
                     Divirta-se
                 </h2>
                 <div class="col-md-6">
-                    <p style="text-align: justify; color:#000;">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor error facere excepturi beatae, maiores. Suscipit dolor eveniet iusto culpa unde quos, voluptates sapiente ipsum perspiciatis similique possimus molestiae modi?
+                    <p style="text-align: center; color:#000;">
+                        <i class="fa fa-music" style="position: relative; left: -40%; color: green"></i>
+                       <br>
+                        "Você traz pra mim, alegria e amor <i class="fa fa-music" style="color: blue;-webkit-transform: rotate(180deg);"></i> <br> 
+                        e eu faço um som que parece um tambor.
+                        <i class="fa fa-music" style="color: red;-webkit-transform: rotate(120deg);"></i> Dum tac, dun tac, é despertador? <br>
+                        dum tac dum tac, não é um tambor!<br>
+                        Dum tac,dun tac sou teu coração <br>
+                         e quando te vejo, vermelho eu fico, de tanta emoção" <i class="fa fa-music" style="color: black; -webkit-transform: rotate(160deg);"></i>.
+                        
                     </p>
                 </div>
                 <div class="col-md-3" style="position: relative; left:-12%">
