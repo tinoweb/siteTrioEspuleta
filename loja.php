@@ -120,7 +120,7 @@
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra" onclick="saveUser()">
+                                              <input type="submit" name="insert" class="btn btn-group btn-success" style="width: 100%" value="Salvar dados para compra">
                                             </div>
                                           </div>
 
