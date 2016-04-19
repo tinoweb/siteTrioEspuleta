@@ -1,9 +1,5 @@
 <?php
 
- $username = "root";
- $password = "";
-
-
  include_once  "conexao.php";
 
  $nome          = $_POST['nome'];
