@@ -132,13 +132,13 @@
 
                                            <div class="form-group">
                                                 <div class="col-sm-6">
-                                                    <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-                                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-                                                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                                                <input type="hidden" name="itemCode" value="E12959B436362B6BB4FA7F9B0A1DE9E5" />
-                                                <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-pagar-azul-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-                                                </form>
-                                                <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+                                                  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                                                    <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+                                                    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                                                    <input type="hidden" name="itemCode" value="0795C874B6B6716BB482CFB7386EA17F" />
+                                                    <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                                                    </form>
+                                                    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 
                                                 </div>
                                                 <div class="col-sm-6">
