@@ -94,22 +94,14 @@
                 <div class="item">
                     <img class="slideClass" src="img/slide-1.png" alt="Second slide">
                     <!-- Static Header -->
-
                 </div>
 
             </div>
-            <!-- Controls -->
-            <!--<a href="#carousel-example-generic" data-slide="prev" >
-                <i class="voltar"> <img src="img/next.png" style="-webkit-transform: rotate(180deg);"> </i>
-            </a>
-            <a class="" href="#carousel-example-generic" data-slide="next">
-               <i class="ir"> <img src="img/next.png"></i>
-            </a>-->
         </div><!-- /carousel -->
 
                 <div>
                         <a class="scroll-link" href="#app-features">
-                         <img src="img/seta.png" style="position: relative;top: 30px; z-index: 999;">
+                         <img src="img/seta.png" style="position: relative;top: 14px; z-index: 999;">
                         </a>
                 </div>
                 <a href="#" class="scrollToTop">

@@ -69,19 +69,19 @@
                                                 <tbody align="left">
                                                    <tr>
                                                     <td class="info">Acabamento:</td>
-                                                    <td class="success">Brochura</td>
+                                                    <td class="success">Capa dura</td>
                                                   </tr>
                                                   <tr>
                                                     <td class="info">Altura:</td>
-                                                    <td class="success">23.00 cm</td>
+                                                    <td class="success">25.00 cm</td>
                                                   </tr>
                                                   <tr>
                                                     <td class="info">Largura:</td>
-                                                    <td class="success">16.00 cm</td>
+                                                    <td class="success">25.00 cm</td>
                                                   </tr>
                                                   <tr>
                                                     <td class="info">Numero de Páginas:</td>
-                                                    <td class="success">100</td>
+                                                    <td class="success">30</td>
                                                   </tr>
                                                   <tr>
                                                     <td class="info">Total</td>
