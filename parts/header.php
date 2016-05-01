@@ -26,7 +26,8 @@
         <meta name="msapplication-TileImage" content="ico/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
                         <!-- CSS -->
-        <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet">
+        <!-- <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet"> -->
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/typicons.min.css" rel="stylesheet">

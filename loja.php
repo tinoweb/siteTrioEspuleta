@@ -65,11 +65,25 @@
                                         <img alt="" src="img/livro-aberto.png">
 
                                             <h3>Descrição do Produto:</h3>
+                                            <p>
+                                              <a class="btn btn-block btn-primary" data-toggle="collapse" href="#DESCesplorandoCorac" aria-expanded="false" aria-controls="DESCesplorandoCorac">
+                                              CLICK AQUI E VEJA DESCRIÇÃO 
+                                              </a>
+                                            </p>
+                                            <div class="collapse" id="DESCesplorandoCorac">
+                                              <div class="card card-block" style="color: black; text-align: justify;">
+                                                EXPLORANDO O CORAÇÃO é o primeiro livro da Série “AS AVENTURAS DO TRIO ESPULETA”.
+                                                Além das crianças Mikaela, Mirela e Lucca, o livro apresenta um personagem querido e
+                                                apaixonante “O TOM”. Tom leva a turminha para uma viagem inesquecível pelo interior do
+                                                coração. Sentados sobre um “barquinho” eles exploram os espaços e aprendem sobre o
+                                                funcionamento desse órgão tão importante.
+                                              </div>
+                                            </div>
                                              <table class="table" style="color: #000;" align="center">
                                                 <tbody align="left">
                                                    <tr>
                                                     <td class="info">Acabamento:</td>
-                                                    <td class="success">Brochura</td>
+                                                    <td class="success">Capa dura</td>
                                                   </tr>
                                                   <tr>
                                                     <td class="info">Altura:</td>
@@ -80,8 +94,8 @@
                                                     <td class="success">16.00 cm</td>
                                                   </tr>
                                                   <tr>
-                                                    <td class="info">Numero de Páginas:</td>
-                                                    <td class="success">100</td>
+                                                    <td class="info">Valor:</td>
+                                                    <td class="success">R$ 30.00</td>
                                                   </tr>
                                                 </tbody>
                                               </table>
@@ -164,8 +178,10 @@
 <div class="fuid-container" style="background-color: #009180">
     <div class="row">
         <div class="col-md-12">
-            <p style="text-align: justify; color: rgba(181, 167, 167, 0.91); font-size: 13px; position:relative; left: 30%">
-                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: SoftLike
+            <p style="text-align: justify; color: rgb(255, 161, 0); font-size: 13px; position:relative; left: 30%">
+                Realização: Projet'Art | Design: Agência Zoom - Unasp-EC | Desenvolvimento: <a href="http://www.softlike.com.br" style="
+    color: #fff;
+">Softlike</a>
             </p>
         </div>
     </div>
