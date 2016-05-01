@@ -202,7 +202,7 @@
         </div>
     </div>
     <div>
-        <img src="img/foguete.png" style="position: relative;top: 180px; left: 25%">
+        <img src="img/foguete.png" style="position: relative;top: 120px; left: 25%">
     </div>
 </div>
 
@@ -231,24 +231,24 @@
 
                 <div class="col-md-8">
                      <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', true );showDiv( 'd2', false );showDiv( 'd3', false );">
-                        <img title="Click para me conhecer" src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;"
-                            onMouseOver="this.src='img/mirela.png'"
+                        <img title="Passe o cursor para me conhecer" src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;"
+                            onMouseOver="this.src='img/Menina2.png'"
                             onMouseOut="this.src='img/mirela_transp.png'"
                             onClick=""
                         />
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', true );showDiv( 'd3', false );">
-                        <img title="Click para me conhecer" src="img/mikaela_transp.png" style="position: relative; width: 200px"
-                            onMouseOver="this.src='img/mikaela.png'"
+                        <img title="Passe o cursor para me conhecer" src="img/mikaela_transp.png" style="position: relative; width: 200px"
+                            onMouseOver="this.src='img/Menina1.png'"
                             onMouseOut="this.src='img/mikaela_transp.png'"
                             onClick=""
                         />
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', false );showDiv( 'd3', true );">
-                        <img title="Click para me conhecer" src="img/luca_transp.png" style="position: relative; width: 200px; left: -80px;"
-                            onMouseOver="this.src='img/luca.png'"
+                        <img title="Passe o cursor para me conhecer" src="img/luca_transp.png" style="position: relative; width: 200px; left: -40px;"
+                            onMouseOver="this.src='img/Menino.png'"
                             onMouseOut="this.src='img/luca_transp.png'"
                             onClick=""
                         />
@@ -342,7 +342,7 @@
         </div>
     </div>
     <div>
-        <img src="img/lapis.png" style="position: relative;top:140px; left:20% ">
+        <img src="img/lapis.png" style="position: relative;top:65px; left:20% ">
     </div>
 </div>
 

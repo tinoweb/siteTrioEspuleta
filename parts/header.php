@@ -34,6 +34,7 @@
         <link href="css/form-elements.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/media-queries.css" rel="stylesheet">
+        <link href="css/VarelaRound-Regular.otf" rel="stylesheet">
                             <!-- Favicon and touch icons -->
         <link href="assets/ico/favicon.png" rel="shortcut icon">
         <link href="apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
