@@ -1,6 +1,7 @@
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-family:'Varela', Varela;*/
+    font-family: 'Varela Round', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #888;
@@ -56,9 +57,11 @@ a, a:hover, a:focus {
 }
 .bt{
     color: #FFA100;
-    box-shadow: 0 1px 4px #333;
+    box-shadow: 0px -1px 4px #434343;
     border-radius: 10px;
     background: beige;
+    position: relative;
+    top: 2px;
 }
 .pb{
     position: relative;
@@ -76,6 +79,13 @@ a, a:hover, a:focus {
 	background: #5CB85C !important;
     font-weight: 400;
     color: #F8F8F8;
+}
+.desc_book{
+	color: #5B5B5B;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 135%;
+    margin-bottom: 11px;
 }
 
 /*************** TINO ***************/

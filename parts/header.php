@@ -26,7 +26,8 @@
         <meta name="msapplication-TileImage" content="ico/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
                         <!-- CSS -->
-        <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet">
+        <!-- <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet"> -->
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/typicons.min.css" rel="stylesheet">
@@ -34,6 +35,7 @@
         <link href="css/form-elements.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/media-queries.css" rel="stylesheet">
+        <link href="css/VarelaRound-Regular.otf" rel="stylesheet">
                             <!-- Favicon and touch icons -->
         <link href="assets/ico/favicon.png" rel="shortcut icon">
         <link href="apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
