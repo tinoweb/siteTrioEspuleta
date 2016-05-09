@@ -419,11 +419,11 @@
             <div class="col-sm-12">
                 <img alt="" src="img/rodape.jpg">
                     <a href="">
-                        O Projeto
+                        Loja 
                     </a>
                     |
                     <a href="">
-                        A Idealizadora
+                        Divirta-se
                     </a>
                     |
                     <a href="">
@@ -431,11 +431,11 @@
                     </a>
                     |
                     <a href="">
-                        Loja
+                        O Projeto
                     </a>
                     |
                     <a href="">
-                        Divirta-se
+                        Idealizadora
                     </a>
                     |
                     <a href="">
