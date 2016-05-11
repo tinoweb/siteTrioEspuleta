@@ -99,7 +99,7 @@
                                                   </tr>
                                                   <tr>
                                                     <td class="info">Total</td>
-                                                    <td class="success pricebook">R$ 30,00</td>
+                                                    <td class="success pricebook">R$ 39,90</td>
                                                   </tr>
                                                 </tbody>
                                               </table>
