@@ -169,8 +169,10 @@
                 </h2>
                 
                 <div class="col-md-6" style="position: relative;">
-                    <img alt="" src="img/coracao.jpg">
+                    <img alt="" src="img/coracao.jpg"> <br>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg"> Jogar quebra cabeça do tom</button>
                 </div>
+                    
                 
                 <div class="col-md-6" style="position: relative;">
                     <!-- <div class="col-md-6"> -->
@@ -460,6 +462,14 @@
             </p>
         </div>
     </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <iframe src="//www.jigsawplanet.com/?rc=play&amp;pid=2360da869502&amp;view=iframe" style="width:100%;height:600px" frameborder=0 allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 <?php include_once 'parts/querys.php'; ?>
