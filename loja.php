@@ -63,14 +63,9 @@
                                     </div>
                                     <div class="panel-body">
                                         <img alt="" src="img/livro-aberto.png">
-
-                                            <h3>Descrição do Produto:</h3>
-                                            <p>
-                                              <a class="btn btn-block btn-primary" data-toggle="collapse" href="#DESCesplorandoCorac" aria-expanded="false" aria-controls="DESCesplorandoCorac">
-                                              CLICK AQUI E VEJA DESCRIÇÃO 
-                                              </a>
-                                            </p>
-                                            <div class="collapse" id="DESCesplorandoCorac">
+                                            <hr>
+                                            <h3 class="label label-danger">Descrição do Produto:</h3>
+                                           
                                               <div class="card card-block desc_book" style="">
                                                 EXPLORANDO O CORAÇÃO é o primeiro livro da Série “AS AVENTURAS DO TRIO ESPULETA”.
                                                 Além das crianças Mikaela, Mirela e Lucca, o livro apresenta um personagem querido e
@@ -78,7 +73,7 @@
                                                 coração. Sentados sobre um “barquinho” eles exploram os espaços e aprendem sobre o
                                                 funcionamento desse órgão tão importante.
                                               </div>
-                                            </div>
+                                            <hr>
                                              <table class="table" style="color: #000;" align="center">
                                                 <tbody align="left">
                                                    <tr>
