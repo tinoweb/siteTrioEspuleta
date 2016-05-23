@@ -226,7 +226,7 @@
 
                 <div class="col-md-8">
                      <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', true );showDiv( 'd2', false );showDiv( 'd3', false );">
-                        <img title="Passe o cursor para me conhecer" src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;"
+                        <img title="click aqui para me conhecer" src="img/mirela_transp.png" style="position: relative; width: 200px; left: -20px;"
                             onMouseOver="this.src='img/Menina2.png'"
                             onMouseOut="this.src='img/mirela_transp.png'"
                             onClick=""
@@ -234,7 +234,7 @@
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', true );showDiv( 'd3', false );">
-                        <img title="Passe o cursor para me conhecer" src="img/Menina1.png" style="position: relative; width: 200px"
+                        <img title="click aqui para me conhecer" src="img/Menina1.png" style="position: relative; width: 200px"
                             onMouseOver="this.src='img/Menina1.png'"
                             onMouseOut="this.src='img/mikaela_transp.png'"
                             onClick=""
@@ -242,7 +242,7 @@
                     </a>
 
                     <a href="javascript:void(0)" onclick="javascript:showDiv( 'd1', false );showDiv( 'd2', false );showDiv( 'd3', true );">
-                        <img title="Passe o cursor para me conhecer" src="img/luca_transp.png" style="position: relative; width: 200px; left: -40px;"
+                        <img title="click aqui para me conhecer" src="img/luca_transp.png" style="position: relative; width: 200px; left: -40px;"
                             onMouseOver="this.src='img/Menino.png'"
                             onMouseOut="this.src='img/luca_transp.png'"
                             onClick=""
@@ -298,7 +298,7 @@
                             <p>
                                 Ieda Domiciano trabalhou em projetos de saúde pública os quais envolviam o
                                 público infantil. Buscando facilitar a comunicação e a educação em saúde,
-                                resolveu criar um canal no qual pudesse ter contado direto com seu público
+                                resolveu criar um canal no qual pudesse ter contato direto com seu público
                                 alvo: as crianças.
                             </p>
                             <p>
