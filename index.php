@@ -181,9 +181,10 @@
                            <br>
                             "Você traz pra mim, alegria e amor <i class="fa fa-music" style="color: blue;-webkit-transform: rotate(180deg);"></i> <br> 
                             e eu faço um som que parece um tambor.
-                            <i class="fa fa-music" style="color: red;-webkit-transform: rotate(120deg);"></i> Dum tac, dun tac, é despertador? <br>
+                            <i class="fa fa-music" style="color: red;-webkit-transform: rotate(120deg);"></i> 
+                            Dum tac, dum tac, é despertador? <br>
                             dum tac dum tac, não é um tambor!<br>
-                            Dum tac,dun tac sou teu coração <br>
+                            Dum tac,dum tac sou teu coração <br>
                              e quando te vejo, vermelho eu fico, de tanta emoção" <i class="fa fa-music" style="color: black; -webkit-transform: rotate(160deg);"></i>.
                             
                         </p>
@@ -464,6 +465,7 @@
     </div>
 </div>
 
+<!-- modeal do jogo do tom -->
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
