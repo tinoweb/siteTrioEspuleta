@@ -184,7 +184,7 @@
                             <i class="fa fa-music" style="color: red;-webkit-transform: rotate(120deg);"></i> 
                             Dum tac, dum tac, é despertador? <br>
                             dum tac dum tac, não é um tambor!<br>
-                            Dum tac,dum tac sou teu coração <br>
+                            Dum tac, dum tac sou teu coração <br>
                              e quando te vejo, vermelho eu fico, de tanta emoção" <i class="fa fa-music" style="color: black; -webkit-transform: rotate(160deg);"></i>.
                             
                         </p>
