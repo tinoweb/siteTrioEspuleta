@@ -1,5 +1,24 @@
-<?php include_once 'parts/header.php'; ?>
-
+    <?php include_once 'parts/header.php'; ?>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            /* Get iframe src attribute value i.e. YouTube video url
+            and store it in a variable */
+            var url = $("#cartoonVideo").attr('src');
+            
+            /* Assign empty url value to the iframe src attribute when
+            modal hide, which stop the video playing */
+            $("#myModal").on('hide.bs.modal', function(){
+                $("#cartoonVideo").attr('src', '');
+            });
+            
+            /* Assign the initially stored url back to the iframe src
+            attribute when modal is displayed again */
+            $("#myModal").on('show.bs.modal', function(){
+                $("#cartoonVideo").attr('src', url);
+            });
+        });
+    </script>
 
     <body style="overflow-x: hidden;" class="body">
         <!-- Top content -->
@@ -65,7 +84,8 @@
                                     </li>
 
                                     <li>
-                                        <a class="scroll-link" href="#blog">
+                                        <a class="scroll-link" target="_blank" href="http://tenhoduvidadoutor.com.br/">
+                                        <!-- #blog -->
                                          Blog
                                         </a>
                                     </li>
@@ -76,6 +96,7 @@
                                     </li>
                                 </ul>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -189,11 +210,14 @@
                             
                         </p>
                     <!-- </div> -->
-                    <audio id="bg_audio" controls="controls">
+                    <!-- <audio id="bg_audio" controls="controls">
                         <source src="#" type="audio/ogg">
                         <source src="audio/musica.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                    </audio> -->
+                     <a href="#myModal" class="btn btn-danger" data-toggle="modal"> <i class="fa fa-film"></i> Cante com o TOM</a>
+
+
                 </div>
         </div>
     </div>
@@ -404,7 +428,7 @@
                 </h2>
                 <div class="col-md-12">
                     <div align="left" style="left: 38%;position: relative;">
-                        <i class="fa fa-envelope fa-3x pb"></i> trioespuleta@gmail.com <br>
+                        <i class="fa fa-envelope fa-3x pb"></i> dradomiciano@hotmail.com <br>
                         <i class="fa fa-phone  fa-3x pb"></i> 19 99806-0711
                     </div>
                 </div>
@@ -474,4 +498,21 @@
   </div>
 </div>
 
+
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Trioespuleta</h4>
+            </div>
+            <div class="modal-body">
+               <!--  <iframe id="cartoonVideo" width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe> -->
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/f2QN4ZjWj6E" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 <?php include_once 'parts/querys.php'; ?>
+

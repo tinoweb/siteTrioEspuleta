@@ -117,7 +117,7 @@
 
                                           <div class="form-group">
                                             <div class="col-sm-12">
-                                              <input type="text" class="form-control" name="email" placeholder="Email" required>
+                                              <input type="email" class="form-control" name="email" placeholder="Email" required>
                                             </div>
                                           </div>
                                           <div class="form-group">
@@ -141,14 +141,14 @@
 
                                            <div class="form-group">
                                                 <div class="col-sm-6">
-                                                  <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-                                                    <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+                                                    <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                                                    <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
                                                     <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-                                                    <input type="hidden" name="itemCode" value="0795C874B6B6716BB482CFB7386EA17F" />
-                                                    <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                                                    <input type="hidden" name="code" value="0AE9C7107979E4B444614F8C86FA331D" />
+                                                    <input type="hidden" name="iot" value="button" />
+                                                    <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
                                                     </form>
                                                     <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <!-- PAGAMENTO PAYPAL-->

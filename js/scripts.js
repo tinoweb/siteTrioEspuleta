@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
 
 
 	$('a.scroll-link').on('click', function(e) {
-		e.preventDefault();
+		// e.preventDefault();
 		scroll_to($(this), 0);
 	});
 
