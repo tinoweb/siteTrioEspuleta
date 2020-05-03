@@ -2,18 +2,10 @@
     
     <script type="text/javascript">
         $(document).ready(function(){
-            /* Get iframe src attribute value i.e. YouTube video url
-            and store it in a variable */
             var url = $("#cartoonVideo").attr('src');
-            
-            /* Assign empty url value to the iframe src attribute when
-            modal hide, which stop the video playing */
             $("#myModal").on('hide.bs.modal', function(){
                 $("#cartoonVideo").attr('src', '');
             });
-            
-            /* Assign the initially stored url back to the iframe src
-            attribute when modal is displayed again */
             $("#myModal").on('show.bs.modal', function(){
                 $("#cartoonVideo").attr('src', url);
             });
@@ -21,9 +13,7 @@
     </script>
 
     <body style="overflow-x: hidden;" class="body">
-        <!-- Top content -->
         <div class="top-content section-container-5">
-            <!-- Top menu -->
             <nav class="navbar navbar-inverse na vbar-no-bg" role="navigation" style=" width: 100%; background-color: #fff; top: 40px">
                 <div class="container">
                     <div class="navbar-header">
@@ -39,14 +29,11 @@
                             </span>
                         </button>
                     </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse cor-menu" id="top-navbar-1">
                         <div class="row">
-
-
                             <div class="col-md-5">
                                 <ul class="nav navbar-nav navbar-left">
-                                <li>
+                                    <li>
                                         <a class="scroll-link" href="#testimonials">
                                           <i class="fa fa-shopping-bag"></i>  Loja
                                         </a>
@@ -64,11 +51,9 @@
                                 </ul>
                             </div>
 
-
                             <div class="col-md-2">
                                 <img alt="" src="img/logo.png" class="logotipo" style="border:none;">
                             </div>
-
 
                             <div class="col-md-5">
                                 <ul class="nav navbar-nav navbar-right">
@@ -85,7 +70,6 @@
 
                                     <li>
                                         <a class="scroll-link" target="_blank" href="http://tenhoduvidadoutor.com.br/">
-                                        <!-- #blog -->
                                          Blog
                                         </a>
                                     </li>
@@ -102,45 +86,30 @@
                 </div>
             </nav>
 
-<div class="row" style="position: relative; top: 20px; width: auto">
-        <!-- Carousel -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride=""> <!-- carousel  atributo da dataride-->
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img class="slideClass" src="img/slide-1.png" alt="First slide">
-                    <!-- Static Header -->
+            <div class="row" style="position: relative; top: 20px; width: auto">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="slideClass" src="img/slide-1.png" alt="First slide">
+                        </div>
+                        <div class="item">
+                            <img class="slideClass" src="img/slide-1.png" alt="Second slide">
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <img class="slideClass" src="img/slide-1.png" alt="Second slide">
-                    <!-- Static Header -->
-                </div>
-
-            </div>
-        </div><!-- /carousel -->
-
                 <div>
-                        <a class="scroll-link" href="#app-features">
-                         <img src="img/seta.png" style="position: relative;top: 14px; z-index: 999;">
-                        </a>
+                    <a class="scroll-link" href="#app-features">
+                        <img src="img/seta.png" style="position: relative;top: 14px; z-index: 999;">
+                    </a>
                 </div>
                 <a href="#" class="scrollToTop">
-                    <!-- <i class="fa fa-arrow-circle-o-up fa-4x bt" title="Subir ao Topo"></i> -->
                     <img src="img/seta.png" class="img_180 bt" title="Subir ao Topo" />
                 </a>
-
-</div>
-
+            </div>
         </div>
-
-
-
-
     </body>
 </html>
 
-<!-- Always beautiful -->
 <div class="testimonials-container section-container-3 letras-footer">
     <div class="container">
         <div class="row">
@@ -180,7 +149,6 @@
     
 </div>
 
-
 <div class="divirta-se-container section-container">
     <div class="container">
         <div class="row">
@@ -193,31 +161,21 @@
                     <img alt="" src="img/coracao.jpg"> <br>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg"> Jogar quebra cabeça do tom</button>
                 </div>
-                    
                 
                 <div class="col-md-6" style="position: relative;">
-                    <!-- <div class="col-md-6"> -->
-                        <p style="text-align: center; color:#000;">
-                            <i class="fa fa-music" style="position: relative; left: -40%; color: green"></i>
-                           <br>
-                            "Você traz pra mim, alegria e amor <i class="fa fa-music" style="color: blue;-webkit-transform: rotate(180deg);"></i> <br> 
-                            e eu faço um som que parece um tambor.
-                            <i class="fa fa-music" style="color: red;-webkit-transform: rotate(120deg);"></i> 
-                            Dum tac, dum tac, é despertador? <br>
-                            dum tac dum tac, não é um tambor!<br>
-                            Dum tac, dum tac sou teu coração <br>
-                             e quando te vejo, vermelho eu fico, de tanta emoção" <i class="fa fa-music" style="color: black; -webkit-transform: rotate(160deg);"></i>.
-                            
-                        </p>
-                    <!-- </div> -->
-                    <!-- <audio id="bg_audio" controls="controls">
-                        <source src="#" type="audio/ogg">
-                        <source src="audio/musica.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio> -->
+                    <p style="text-align: center; color:#000;">
+                        <i class="fa fa-music" style="position: relative; left: -40%; color: green"></i>
+                        <br>
+                        "Você traz pra mim, alegria e amor <i class="fa fa-music" style="color: blue;-webkit-transform: rotate(180deg);"></i> <br> 
+                        e eu faço um som que parece um tambor.
+                        <i class="fa fa-music" style="color: red;-webkit-transform: rotate(120deg);"></i> 
+                        Dum tac, dum tac, é despertador? <br>
+                        dum tac dum tac, não é um tambor!<br>
+                        Dum tac, dum tac sou teu coração <br>
+                            e quando te vejo, vermelho eu fico, de tanta emoção" <i class="fa fa-music" style="color: black; -webkit-transform: rotate(160deg);"></i>.
+                        
+                    </p>
                      <a href="#myModal" class="btn btn-danger" data-toggle="modal"> <i class="fa fa-film"></i> Cante com o TOM</a>
-
-
                 </div>
         </div>
     </div>
@@ -226,10 +184,6 @@
     </div>
 </div>
 
-
-
-
-<!-- More features -->
 <div class="about-us-container section-container-2 letras-footer">
     <div class="container">
         <div class="row">
@@ -311,7 +265,7 @@
         <img src="img/bola.png" style="position: relative;top: 150px; left: -25%">
     </div>
 </div>
-<!-- App Features -->
+
 <div class="app-features-container section-container-1">
     <div class="container">
         <div class="row">
@@ -352,13 +306,9 @@
     </div>
     <div>
         <img src="img/lupa.png" style="position:relative;top: 140px">
-
     </div>
 </div>
 
-
-
-<!-- How it works -->
 <div class="how-it-works-container section-container" id="how-it-works">
     <div class="container">
         <div class="row">
@@ -418,7 +368,6 @@
     </div>
 </div>
 
-
 <div class="contato-container section-container-2">
     <div class="container">
         <div class="row letras-footer">
@@ -442,7 +391,6 @@
     </div>
 </div>
 
-<!-- Footer -->
 <footer class="section-container-5 letras-footer" style="position: relative; bottom: 0px;">
     <div class="container">
         <div class="row">
@@ -479,6 +427,7 @@
         </div>
     </div>
 </footer>
+
 <div class="fuid-container" style="background-color: #009180">
     <div class="row">
         <div class="col-md-12">
@@ -507,8 +456,6 @@
                 <h4 class="modal-title">Trioespuleta</h4>
             </div>
             <div class="modal-body">
-               <!--  <iframe id="cartoonVideo" width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe> -->
-
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/f2QN4ZjWj6E" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>

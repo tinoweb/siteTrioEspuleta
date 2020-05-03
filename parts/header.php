@@ -25,8 +25,7 @@
         <meta name="msapplication-TileColor" content="ico/#da532c">
         <meta name="msapplication-TileImage" content="ico/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
-                        <!-- CSS -->
-        <!-- <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" rel="stylesheet"> -->
+        <!-- CSS -->
         <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,23 +35,23 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/media-queries.css" rel="stylesheet">
         <link href="css/VarelaRound-Regular.otf" rel="stylesheet">
-                            <!-- Favicon and touch icons -->
+        <!-- Favicon and touch icons -->
         <link href="assets/ico/favicon.png" rel="shortcut icon">
         <link href="apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
         <link href="apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
         <link href="apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
         <link href="apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
 
-          <script type="text/javascript">
-          function playSound(el,soundfile) {
-              if (el.mp3) {
-                  if(el.mp3.paused) el.mp3.play();
-                  else el.mp3.pause();
-              } else {
-                  el.mp3 = new Audio(soundfile);
-                  el.mp3.play();
-              }
-          }
-      </script>
+        <script type="text/javascript">
+            function playSound(el,soundfile) {
+                if (el.mp3) {
+                    if(el.mp3.paused) el.mp3.play();
+                    else el.mp3.pause();
+                } else {
+                    el.mp3 = new Audio(soundfile);
+                    el.mp3.play();
+                }
+            }
+        </script>
 
     </head>

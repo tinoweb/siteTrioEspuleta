@@ -1,0 +1,6 @@
+{
+    "name": "tinoweb/trioespuleta",
+    "require": {
+        "facebook/graph-sdk": "5.7.0"
+    }
+}
